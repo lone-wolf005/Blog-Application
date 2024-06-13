@@ -33,7 +33,7 @@ To install this application, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/blog-application.git
+    git clone https://github.com/lone-wolf005/blog-application.git
     cd blog-application
     ```
 
