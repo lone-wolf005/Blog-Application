@@ -8,9 +8,9 @@ This is a Blog Application built using [Vite](https://vitejs.dev/) for the front
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
+- [Tailwind CSS Configuration](#tailwind-css-configuration)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contribution](#contribution)
 
 ## Features
 
@@ -33,7 +33,7 @@ To install this application, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/lone-wolf005/blog-application.git
+    git clone https://github.com/your-username/blog-application.git
     cd blog-application
     ```
 
@@ -45,7 +45,7 @@ To install this application, follow these steps:
     ```
 
 3. Set up Appwrite:
-    - Follow the Appwrite [getting started guide](https://appwrite.io/docs) to set up your Appwrite server.
+    - Follow the Appwrite [getting started guide](https://appwrite.io/docs/getting-started-for-self-hosted) to set up your Appwrite server.
     - Create a project in Appwrite.
     - Create a database with collections for blog posts and users.
     - Set up authentication providers if needed.
@@ -61,6 +61,41 @@ To install this application, follow these steps:
     VITE_APPWRITE_BUCKET=your_bucket_id
     ```
 
+## Tailwind CSS Configuration
+
+1. Install Tailwind CSS and its dependencies:
+    ```sh
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    ```
+
+2. Configure your `tailwind.config.js` file:
+    ```javascript
+    /** @type {import('tailwindcss').Config} */
+    module.exports = {
+      content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+      ],
+      theme: {
+        extend: {},
+      },
+      plugins: [],
+    }
+    ```
+
+3. Add the Tailwind directives to your CSS file:
+    ```css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
+
+4. Ensure your CSS file is imported in your `main.jsx` or `App.jsx`:
+    ```javascript
+    import './index.css';
+    ```
+
 ## Usage
 
 To run the application locally, use:
@@ -69,3 +104,6 @@ To run the application locally, use:
 npm run dev
 # or
 yarn dev
+
+## Contibution
+JIGAR THAKOR(https://github.com/lone-wolf005)
