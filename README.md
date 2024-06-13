@@ -45,7 +45,7 @@ To install this application, follow these steps:
     ```
 
 3. Set up Appwrite:
-    - Follow the Appwrite [getting started guide](https://appwrite.io/docs/getting-started-for-self-hosted) to set up your Appwrite server.
+    - Follow the Appwrite [getting started guide](https://appwrite.io/docs) to set up your Appwrite server.
     - Create a project in Appwrite.
     - Create a database with collections for blog posts and users.
     - Set up authentication providers if needed.
