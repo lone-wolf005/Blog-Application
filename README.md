@@ -10,7 +10,6 @@ This is a Blog Application built using [Vite](https://vitejs.dev/) for the front
 - [Configuration](#configuration)
 - [Tailwind CSS Configuration](#tailwind-css-configuration)
 - [Usage](#usage)
-- [Contribution](#contribution)
 
 ## Features
 
@@ -104,6 +103,3 @@ To run the application locally, use:
 npm run dev
 # or
 yarn dev
-
-## Contibution
-JIGAR THAKOR(https://github.com/lone-wolf005)
